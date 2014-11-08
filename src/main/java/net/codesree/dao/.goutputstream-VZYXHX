@@ -1,0 +1,12 @@
+package net.codesree.dao;
+
+import java.util.Map;
+import java.io.Serializable;
+
+public interface IDao<T> extends Serializable {
+  int countAll(Map params);
+  T find(int id);
+  T create(T obj);
+  T update(T obj);
+  void delete(T obj);
+}

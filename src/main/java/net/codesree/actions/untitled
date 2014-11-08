@@ -1,0 +1,18 @@
+package net.codesree.actions;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+
+import net.codesree.web.View;
+import net.codesree.web.AbstractAction;
+
+public class  extends AbstractAction {
+
+  public ForgotPasswd() {
+  }
+  
+  public void preProcess() {}
+  public void processRequest() {}
+  public void postProcess() {}
+
+}
